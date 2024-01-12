@@ -1,0 +1,211 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+    border: 5px solid red;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+#sidebar {
+   min-height: 100vh;
+   min-width: 20vw;
+   padding: 0.5%;
+}
+#main {
+    min-height: 100vh;
+    min-width: 80vw;
+}
+#sidebar-title {
+    min-height: 10%;
+    display: flex;
+}
+.sidebar-option {
+    min-height: calc(65%/9);
+    display: flex;
+}
+#sidebar > :nth-child(1), :nth-child(7){
+    margin-bottom: 5%;
+}
+#sidebar-title-icon, .sidebar-icon {
+    min-height: 100%;
+    min-width: 25%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#sidebar-title-text, .sidebar-text {
+    min-height: 100%;
+    min-width: 75%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#header {
+    height: 1px;
+    min-height: 20%;
+    min-width: 100%;
+    padding: 0.5%;
+}
+#header01 {
+    min-height: 25%;
+    min-width: 100%;
+    display: flex;
+}
+#header02 {
+    min-height: 80%;
+    min-width: 100%;
+    display: flex;
+}
+#search-icon {
+    min-width: 5%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#search {
+    min-width: 63%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#bell {
+    min-width: 5%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#profile-small {
+    min-width: 7%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#name-small {
+    min-width: 20%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#profile {
+    min-width: 10%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#names {
+    min-width: 65%;
+}
+#buttons {
+    min-width: 25%;
+    display: flex;
+}
+#name-small02 {
+    min-height: 20%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#name-big {
+    min-height: 80%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+.button {
+    min-width: 33.4%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#main-content {
+    min-height: 80%;
+    min-width: 100%;
+    display: flex;
+    padding: 0.5%;
+}
+#left {
+    min-height: 100%;
+    min-width: 70%;
+}
+#right {
+    min-height: 100%;
+    min-width: 30%;
+}
+#left-title {
+    min-height: 7%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#left-content {
+    min-height: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5%;
+}
+.left-box {
+    min-width: calc(100% / 2);
+}
+.left-box-title {
+    min-height: 20%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+.left-box-text   {
+    min-height: 60%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+.left-box-icons {
+    min-height: 20%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#announce {
+    min-height: 50%;
+    height: 1px;
+}
+#announce-title {
+    min-height: 10%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#announce-content {
+    min-height: 90%;
+    height: 1px;
+}
+.announce-box {
+    min-height: calc(100%/3);
+    height: 1px;
+}
+.announce-box-title {
+    min-height: 20%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+.annnounce-box-text {
+    min-height: 80%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#trending {
+    min-height: 50%;
+    height: 1px;
+}
+#trending-title {
+    min-height: 10%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+#trending-content {
+    min-height: 90%;
+    height: 1px;
+}
+.trending-box {
+    min-height: calc(100%/3);
+    display: flex;
+}
+.trending-box-title {
+    min-width: 20%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
+.trending-box-text {
+    min-width: 80%;
+    box-sizing: border-box;
+    border:5px solid blue;
+}
